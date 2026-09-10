@@ -15,13 +15,13 @@
 
 ## `01 / PROFILE`
 
-I am **Jonathan Cabera**, a full-stack engineer. I work in TypeScript across the stack, with Node/Express and PostgreSQL behind the API and React on the front. My work concentrates on the parts of a system where correctness is hard to fake: concurrent writes, race conditions, real-time state, and data pipelines that have to stay right without supervision.
+I am **Jonathan Cabera**, a full-stack engineer. I work in TypeScript across the stack, with Node/Express and PostgreSQL behind the API and React on the front.
 
 ## `02 / ACTIVE SYSTEMS`
 
 | System | What it does | Stack | Access |
 | --- | --- | --- | --- |
-| [**BidBrawl**](https://github.com/jonathancabera/bid-brawl) | Real-time auction platform with a concurrency-safe bidding engine built on a Redis distributed lock over a PostgreSQL row-level locking transaction. Zero duplicate wins under a 20-way concurrent-bid test. | TypeScript · React · PostgreSQL · Redis · Socket.IO · Stripe | `PUBLIC` |
+| [**BidBrawl**](https://github.com/jonathancabera/bid-brawl) | Real-time auction platform with a concurrency-safe bidding engine built on a Redis distributed lock over a PostgreSQL row-level locking transaction. | TypeScript · React · PostgreSQL · Redis · Socket.IO · Stripe | `PUBLIC` |
 | [**bark**](https://github.com/barc-dev/bark) | VS Code extension that detects diagnostic errors as you work, explains them in plain language with Gemini, and surfaces the relevant docs without leaving the editor. | TypeScript · React · Node.js · Google Gemini | `MARKETPLACE` |
 | [**CJI-Dashboard**](https://github.com/CJI-CodeSmith/CJI-Dashboard) | Research dashboard for the Cornell Climate Jobs Institute, backed by an ETL pipeline that normalizes OSHA inspection records from the U.S. Department of Labor API. | TypeScript · React · TanStack Query · Datawrapper API | `PUBLIC` |
 
